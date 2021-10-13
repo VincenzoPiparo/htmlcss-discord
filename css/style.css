@@ -104,7 +104,7 @@ nav {
     text-align: right;
 }
 
-/* MAIN */
+
 /* BANNER */
 .banner{
     background-image: url("../img/jumbo.png");
@@ -112,6 +112,11 @@ nav {
     background-repeat: no-repeat;
     text-align: center;
     padding: 190px 0;
+}
+
+/* MAIN */
+.photo-texts{
+    padding: 95px 0;
 }
 
 .content-banner{
@@ -122,4 +127,35 @@ nav {
 .content-banner h1{
     margin-bottom: 30px;
 }
+
+/* BENEFITS */
+.benefits .col-image{
+    width: 70%;
+    padding: 0 45px;
+}
+
+.benefits .col-texts{
+    width: 30%;
+    
+}
+.benefits .col-texts h2{
+    font-size: 50px;
+}
+
+.benefits .col-texts p{
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.benefits .titolo{
+    margin-top: 40px;
+}
+
+/* END PHOTO */
+
+.photo-text{
+    padding: 95px 0;
+
+}
+
 
