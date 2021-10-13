@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+/* LAYOUT */
+.col{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/* HEADER */
+header{
+    background-color: #3161e0;
+    color: white;
+    height: 80px;
+}
+nav {
+    line-height: 80px;
+}
+.logo, 
+.login {
+    width: 10%;
+}
+/* LOGO */
+.logo img{
+    vertical-align: middle;
+}
+/* BUTTON */
+.small-btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    line-height: normal;
+    display: inline-block;
+}
+.white-btn{
+    color: black;
+    background-color: white;
+}
+/* MENU  */
+.menu-central {
+    width: 80%;
+    text-align: center;
+}
+.menu-top{
+    list-style-type: none;
+}
+.menu-top li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu-top a {
+    text-decoration: none;
+    color: white;
+}
+/* LOGIN */
+.login{
+    text-align: right;
+}
+
